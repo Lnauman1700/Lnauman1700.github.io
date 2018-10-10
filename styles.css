@@ -1,0 +1,44 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  background-color: lightgoldenrodyellow;
+}
+header {
+  background-color: black;
+  height: 130px;
+  position: relative;
+}
+h1, nav, header ul li {
+  display: inline-block;
+}
+h1 {
+  position: absolute;
+  color: white;
+  border: 5px solid white;
+  box-shadow: 5px 5px white;
+  padding: 20px;
+  margin-left: 10px;
+}
+nav {
+  float: right;
+  margin-right: 15px;
+  margin-top: 50px;
+}
+header ul {
+  margin-top: 30px;
+}
+header ul li{
+  transform: skew(20deg);
+}
+header ul li a {
+  color: white;
+  border: 3px solid white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+header ul li a:hover {
+  box-shadow: 5px 5px white;
+}

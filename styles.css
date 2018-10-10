@@ -12,9 +12,9 @@ h1, nav, header ul li {
 h1 {
   position: absolute;
   color: white;
-  padding: 20px;
   border: 5px solid white;
   box-shadow: 5px 5px white;
+  padding: 20px;
   margin-left: 10px;
 }
 nav {
@@ -30,8 +30,17 @@ header ul li{
 }
 header ul li a {
   color: white;
+  border: 3px solid white;
   text-decoration: none;
   font-size: 1.2em;
   padding: 10px 10px;
-  border: 3px solid white;
+  transition: 0.5s;
+}
+header ul li a:hover {
+  box-shadow: 5px 5px white;
+}
+.info {
+  width: 800px;
+  font-size: 1.2em;
+  margin: 0 auto;
 }

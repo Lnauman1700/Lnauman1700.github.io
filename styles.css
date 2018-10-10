@@ -25,7 +25,7 @@ nav {
   margin-right: 15px;
   margin-top: 50px;
 }
-ul {
+nav ul {
   margin-top: 30px;
 }
 header ul li{
@@ -41,6 +41,7 @@ header ul li a {
 }
 header ul li a:hover {
   box-shadow: 5px 5px white;
+  padding: 20px 20px;
 }
 .info {
   width: 80%;
@@ -63,7 +64,6 @@ header ul li a:hover {
 .info a {
   text-decoration: none;
   color: #e84545;
-  transition: 0.5sec;
 }
 .info a:hover {
   text-decoration: underline;
@@ -73,4 +73,40 @@ header ul li a:hover {
   line-height: 1.8em;
   text-align: center;
   color: white;
+}
+.wrapper {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+  display: block;
+  width: 85%;
+  font-size: 1.2em;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  background-color: #2b2e4a;
+  border: 3px solid #e84545;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.wrapper:hover {
+  width: 90%;
+  box-shadow: 5px 5px #e84545;
+}
+.preview-about h2 {
+  font-size: 1.5em;
+}
+.preview-about div {
+  width: 45%;
+  margin-left: 5%;
+  display: inline-block;
+}
+.preview-about img{
+  display: inline-block;
+  width: 250px;
+  float: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }

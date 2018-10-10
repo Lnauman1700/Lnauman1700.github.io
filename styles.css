@@ -1,6 +1,9 @@
 html {
   font-family: sans-serif;
 }
+body {
+  background-color: lightgoldenrodyellow;
+}
 header {
   background-color: black;
   height: 130px;
@@ -40,7 +43,34 @@ header ul li a:hover {
   box-shadow: 5px 5px white;
 }
 .info {
-  width: 800px;
+  width: 80%;
   font-size: 1.2em;
   margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #2b2e4a;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 3px solid #e84545;
+  border-radius: 20px;
+}
+.info img {
+  border-radius: 50%;
+  border: 3px solid #e84545;
+  display: block;
+  margin: 0 auto;
+}
+.info a {
+  text-decoration: none;
+  color: #e84545;
+  transition: 0.5sec;
+}
+.info a:hover {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+.info p {
+  line-height: 1.8em;
+  text-align: center;
+  color: white;
 }

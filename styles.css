@@ -41,4 +41,43 @@ header ul li a {
 }
 header ul li a:hover {
   box-shadow: 5px 5px white;
+  padding: 20px 20px;
+}
+.about {
+  background-color: #e84545;
+}
+.about-info {
+  width: 80%;
+  box-sizing: border-box;
+  margin: 15px auto 15px auto;
+  background-color: #e3fdfd;
+  border: 3px solid #48466d;
+  border-radius: 20px;
+}
+.about-info ul {
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #48466d;
+}
+.about-info a {
+  color: #e84545;
+}
+.resume-ad {
+  font-size: 1.5em;
+  line-height: 2em;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
+  margin: 15px auto 15px auto;
+  background-color: #fcbad3;
+  border: 3px solid #aa96da;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.resume-ad:hover {
+  width: 85%;
+    box-shadow: 5px 5px #aa96da;
 }

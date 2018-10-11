@@ -95,14 +95,14 @@ header ul li a:hover {
   width: 90%;
   box-shadow: 5px 5px #e84545;
 }
-.preview-about h2 {
+.preview-about h2, .preview-mywork h2 {
   font-size: 1.5em;
-  padding-left: 20px;
+  text-align: center;
 }
-.preview-about div {
-  width: 50%;
-  height: 100%;
+.preview-about div{
+  width: 300px;
   margin: 0 auto;
+  float: right;
   display: inline-block;
 }
 .preview-about img{
@@ -112,6 +112,21 @@ header ul li a:hover {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.preview-about ul {
+.preview-mywork ul {
   width: 200px;
+}
+.preview-mywork div {
+  margin: 0 auto;
+  display: inline-block;
+  width: 300px;
+}
+.preview-mywork p{
+  text-align: justify;
+}
+.preview-mywork img {
+  display: inline-block;
+  width: 250px;
+  float: right;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }

@@ -68,6 +68,7 @@ header ul li a:hover {
 .info a:hover {
   text-decoration: underline;
   text-decoration-style: double;
+
 }
 .info p {
   line-height: 1.8em;
@@ -79,7 +80,6 @@ header ul li a:hover {
   text-decoration: none;
   align-items: center;
   color: white;
-  display: block;
   width: 85%;
   font-size: 1.2em;
   margin: 0 auto;
@@ -96,11 +96,13 @@ header ul li a:hover {
   box-shadow: 5px 5px #e84545;
 }
 .preview-about h2 {
-  font-size: 1.5em;
+  font-size: 1em;
+  padding-left: 20px;
 }
 .preview-about div {
-  width: 45%;
-  margin-left: 5%;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
   display: inline-block;
 }
 .preview-about img{
@@ -109,4 +111,7 @@ header ul li a:hover {
   float: left;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+.preview-about ul {
+  width: 200px;
 }

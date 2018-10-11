@@ -130,6 +130,68 @@ header ul li a:hover {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+.my-work {
+  background-color: #e84545;
+}
+.what-to-expect {
+  background-color: #2b2e4a;
+  border: 3px solid #e84545;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.github {
+  background-color: #f67280;
+  box-sizing: border-box;
+  width: 40%;
+  border: 3px solid #6c5b7b;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  float: left;
+  animation: fadein 3s;
+}
+.github:hover {
+  box-shadow: 5px 5px #6c5b7b;
+  width: 45%;
+}
+.github p {
+  width: 300px;
+  margin: 30px auto;
+  padding-left: 15px;
+}
+.github a {
+  text-decoration: none;
+  color: white;
+  margin: 10px auto;
+  width: 115px;
+  display: block;
+  padding: 5px;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+.github a:hover {
+  box-shadow: 5px 5px white;
+  width: 140px;
+  font-size: 1.2em;
+}
 footer {
   background-color: black;
   color: white;

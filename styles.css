@@ -154,7 +154,7 @@ header ul li a:hover {
       opacity: 1;
     }
 }
-.github {
+.leftSelection {
   background-color: #f67280;
   box-sizing: border-box;
   width: 40%;
@@ -166,31 +166,127 @@ header ul li a:hover {
   margin-bottom: 15px;
   color: white;
   float: left;
+  display: inline-block;
+  height: 500px;
+  margin-left: 5%;
   animation: fadein 3s;
 }
-.github:hover {
+.leftSelection:hover {
   box-shadow: 5px 5px #6c5b7b;
   width: 45%;
 }
-.github p {
+.leftSelection p {
   width: 300px;
   margin: 30px auto;
-  padding-left: 15px;
+  text-align: center;
 }
-.github a {
+.leftSelection div {
+  width: 100%;
+  text-align: center;
+}
+.leftSelection a {
   text-decoration: none;
   color: white;
   margin: 10px auto;
-  width: 115px;
   display: block;
   padding: 5px;
   border: 2px solid white;
   transition: 0.3s;
 }
-.github a:hover {
+.leftSelection a:hover {
   box-shadow: 5px 5px white;
-  width: 140px;
   font-size: 1.2em;
+}
+.rightSelection {
+  background-color: #f67280;
+  box-sizing: border-box;
+  width: 40%;
+  border: 3px solid #6c5b7b;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  float: right;
+  display: inline-block;
+  height: 500px;
+  margin-right: 5%;
+  animation: fadein 3s;
+}
+.rightSelection:hover {
+  box-shadow: 5px 5px #6c5b7b;
+  width: 45%;
+}
+.rightSelection p {
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+.rightSelection div {
+  width: 100%;
+  text-align: center;
+}
+.rightSelection a {
+  text-decoration: none;
+  color: white;
+  margin: 10px auto;
+  display: block;
+  padding: 5px;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+.rightSelection a:hover {
+  box-shadow: 5px 5px white;
+  font-size: 1.2em;
+}
+#github {
+  animation: fadein 3s;
+}
+#github div {
+  margin-top: 100px;
+}
+#github a {
+  width: 115px;
+}
+#github a:hover {
+  width: 140px;
+}
+#javaGame {
+  animation: fadein 3s;
+}
+#javaGame div {
+  margin-top: 125px;
+}
+#javaGame a {
+  width: 70px;
+}
+#javaGame a:hover {
+  width: 85px;
+}
+#codepen {
+  animation: fadein 3s;
+}
+#codepen div {
+  margin-top: 120px;
+}
+#codepen a {
+  width: 80px;
+}
+#codepen a:hover {
+  width: 100px;
+}
+#placeholder {
+  animation: fadein 3s;
+}
+#placeholder div {
+  margin-top: 60px;
+}
+#placeholder a {
+  width: 60px;
+}
+#placeholder a:hover {
+  width: 70px;
 }
 footer {
   background-color: black;
@@ -198,6 +294,7 @@ footer {
   display: flex;
   height: 50px;
   align-items: center;
+  width: 100%;
 }
 footer p {
   margin-left: 10px;

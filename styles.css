@@ -54,8 +54,16 @@ header ul li a:hover {
   border: 3px solid #48466d;
   border-radius: 20px;
 }
-.about-info ul {
+.about-info ul, .about-info p {
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 1.5em;
+  line-height: 2em;
+  color: #48466d;
+}
+.about-info h2 {
+  font-size: 2em;
+  text-align: center;
   line-height: 2em;
   color: #48466d;
 }

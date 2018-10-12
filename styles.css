@@ -344,6 +344,29 @@ header ul li a:hover {
   width: 85%;
     box-shadow: 5px 5px #aa96da;
 }
+.resume {
+  width: 80%;
+  font-size: 1.2em;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #1fab89;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 3px solid #9df3c4;
+  border-radius: 20px;
+}
+.resume p {
+  line-height: 1.8em;
+  color: #d7fbe8;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.resume h2 {
+  line-height: 2.5em;
+  text-align: center;
+  color: #d7fbe8;
+}
 footer {
   background-color: black;
   color: white;

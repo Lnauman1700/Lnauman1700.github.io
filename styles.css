@@ -89,3 +89,23 @@ header ul li a:hover {
   width: 85%;
     box-shadow: 5px 5px #aa96da;
 }
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+}
+footer p {
+  margin-left: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 2px white;
+  transition: 0.5s;
+}
+footer p:hover {
+  font-size: 1.2em;
+  color: #e84545;
+  border: 2px solid #e84545;
+  box-shadow: 2px 2px #e84545;
+}

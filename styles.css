@@ -367,6 +367,17 @@ header ul li a:hover {
   text-align: center;
   color: #d7fbe8;
 }
+.resume h3 {
+  line-height: 2em;
+  text-align: center;
+  color: #d7fbe8;
+}
+.resume ul{
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.8em;
+  color: #d7fbe8;
+}
 footer {
   background-color: black;
   color: white;
